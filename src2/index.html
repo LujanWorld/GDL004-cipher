@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+    maximum-scale=1">
+    <title>YourPass</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <main>
+      <h2>YourPass</h2>
+      <div id="primera-pag">
+        <form class="primer-form">
+            <p> YourPass te ayudará a generar Passwords que solo tú podrás descifrar.</p>
+            <p>¿Cómo funciona?</p>
+            <p>- Ingresa un número</p>
+            <p>- Ingresa el mensaje</p>
+            <p> Y observa la magia!</p>
+           
+            <input type="button" class="boton1" value="CIFRAR" id="pag-cifrar">
+            <input type="button" class="boton2" value="DESCIFRAR" id="pag-descifrar">
+        </form>
+      </div>
+    </main>
+      <div id="segunda-pag">
+            <form class="segundo-form">
+              <label for="put-number1" class= "letras-f">Caracteres:</label>
+              <input id="put-number1" type= "text" size="15" name="put-number1" placeholder="Ingresa el Número" required>
+              <p class= "letras-f"><label for="ingresa-mensaje">Mensaje:</label></p>
+              <div class="medio"><textarea id ="ingresa-mensaje" class="text-tarea" name="ingresa-mensaje" placeholder="Ingresa tu mensaje" cols= "50" rows="10" required></textarea></div>
+              <div class="medio"><input id = "vamos-cifrar" type="button" class="butt" value="CIFRA"></div>
+              <p class= "letras-f"><label for="resultado-c">Password:</label></p>
+              <div class="medio"><textarea  id= "resultado-c" class="text-tarea" name= "resultado-c" cols= "50" rows="10"></textarea></div>
+              <input type="button" class="boton0" value="REGRESAR" id="a-pag1">
+              <input type="button" class="boton0" value="COPIAR" id="btn-copy">
+            </form>
+       </div>
+       <div id="tercera-pag">
+            <form class="cuarto-form">
+              <label for="put-number2" class= "letras-f">Caracteres:</label>
+              <input id="put-number2" type= "text" size="15" name="put-number2" placeholder="Ingresa el Número" required>
+              <p class= "letras-f"><label for="ingresa-mensaje2">Mensaje Secreto:</label></p>
+              <div class="medio"><textarea  id= "ingresa-mensaje2" class="text-tarea" name="ingresa-mensaje2" cols= "50" rows="10" placeholder="Ingresa tu mensaje" required></textarea></div>
+              <div class="medio"><input id = "vamos-descifrar" type="button" class="butt" value= "DESCIFRA" ></div>
+              <p class= "letras-f"><label for="resultado">Password:</label></p>
+              <div class="medio"><textarea  id= "resultado" class="text-tarea" name= "resultado" cols= "50" rows="10"> </textarea></div>
+              <input type="button" class="boton0" value="REGRESAR" id="b-pag1">
+              <input type="button" class="boton0" value="COPIAR" id="btn-copy-d">
+            </form>
+            
+        </div>
+    <footer>
+    <p class="abajo">©Copyright 2019 by Maria Lujan Navarro</p>
+    </footer>
+      <script src="index.js"></script>
+      <script src="cipher.js"></script>
+  </body>
+</html>
