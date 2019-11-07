@@ -41,12 +41,14 @@ Para los botones de cifrado y descifrado elegi el rojo porque el rojo es tambié
 
 ![alt text](https://github.com/LujanWorld/GDL004-cipher/blob/master/images/paper.jpeg?raw=true)
 
+
 4. Resumen Feedback:
 ¿Cómo lo voy a hacer? Fue lo primero que pense y el squad estuvo super presente en todo el proceso para guiarme y apoyarme cuando estube bloqueda. Luego de elegir mis usuarios y lo que mi cliente necesita transmitir, me puse manos en la masa. Senti que es aquí donde comienza la magia de crear, ellas me ayudaron a definir el tema de mi proyecto y mi usuario, por medio de los Dailys. Fue importante comenzar a pensar en la priorización de elementos o información que queria incluir y pensar en dónde lo voy a hacer. Me ayudaron con el tip de acomodar según el orden de importancia las listas de contenidos, donde poder investigar sobre UX, paleta de colores y tipografia. Por medio de slack nos compartimos mucha informacion valiosa y constructiva para este proyecto y los que vendran.
 
 5. Prototipo final:
  ![alt text](https://github.com/LujanWorld/GDL004-cipher/blob/master/images/final1.png?raw=true)
  ![alt text](https://github.com/LujanWorld/GDL004-cipher/blob/master/images/final2.png?raw=true)
+
 
 
 

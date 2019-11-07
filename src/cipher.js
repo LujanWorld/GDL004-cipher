@@ -8,9 +8,9 @@ window.cipher = {
         if ( ascii >= 65 && ascii <= 90) { // Mayúsculas 
            texto1 = (( ascii - 65 + number1 ) % 26) + 65; //offset es el número de posiciones que queremos mover a la derecha en el alfabeto
         }
-        if( ascii>=32 && ascii<=63){ //signos
-          texto1 = ascii;
-        }
+        // if( ascii>=32 && ascii<=64){ //signos
+        //   texto1 = ascii;
+        //}
         if ( ascii >= 97 && ascii <= 122) { //minusculas
           texto1 = (( ascii - 97 + number1 ) % 26) + 97; //aplica la formula
        }
